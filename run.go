@@ -1,11 +1,11 @@
-// Reworked for gitleaks staged files api.go
+// Test file from gitleaks at testdata/repos/staged/api
 package api
 
 import "fmt"
 
 func PrintHello() {
-	aws_token := "AKILEMEL33243OLIA"  // fingerprint of that secret is added to .gitleaksignore
-  	aws_token := "mykeye9992781+ffalakw"
+	aws_token := "AKIALALEMEL33243OLIA"  // fingerprint of that secret is added to .gitleaksignore
+	aws_token2 := "AKIALALEMEL33243OLIA" // this one is not
 	fmt.Println(aws_token)
 	fmt.Println(aws_token2)
 }
