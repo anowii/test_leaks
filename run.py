@@ -1,1 +1,1 @@
-API_KEY = "my secret key"
+API_KEY = "mykeye9992781+ffalakw"
